@@ -21,7 +21,12 @@ main()
     scanf("%s", name);
 
 
-    printf("\n hello \t %s \n\n\n", name);
+    printf("\n hello \t %s \n", name);
+
+    printf("Buone feste!");
+    printf("\n");
+    
+
     /* return 0: indicated that the program is terminated succesfully
     */
     return 0;
