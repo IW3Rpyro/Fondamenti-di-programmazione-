@@ -13,6 +13,7 @@ main()
 
     // variable of 32 characters
     char name[32];
+    char cognome[32];
 
     // ask for name 
     printf("Enter a name: ");
@@ -20,8 +21,12 @@ main()
     // read the input of the user 
     scanf("%s", name);
 
+    printf("Enter a surname: ");
 
-    printf("\n hello \t %s \n", name);
+    scanf("%s", cognome);
+
+
+    printf("\nhello %s %s \n", name, cognome);
 
     printf("Buone feste!");
     printf("\n");
